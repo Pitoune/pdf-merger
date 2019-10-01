@@ -34,7 +34,7 @@ class PDFMerger
      * Add a PDF for inclusion in the merge with a valid file path. Pages should be formatted: 1,3,6, 12-16.
      * @param $filepath
      * @param $pages
-     * @return void
+     * @return this
      */
     public function addPDF($filepath, $pages = 'all', $orientation = null)
     {
